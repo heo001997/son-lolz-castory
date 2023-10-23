@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Aventar, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+input, textarea, select, button {
+  font-size: inherit;
+  line-height: 150%; /* 24px */
+}
+
+.grid {
+  display: block;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+:root {
+  --nav-height: 60px;
+}
+
+.row {
+  width: 100%;
+}
+
+#nav {
+  background-color: #453FE3;
+  height: var(--nav-height);
+}
+
+.logo-container {
+  height: var(--nav-height);
+  margin-left: 40px;
+}
+
+.logo-container img {
+  height: var(--nav-height);
+  margin-left: 40px;
+}
+
+#container {
+  padding-top: 60px;
+  background-color: #F3F4FD;
+  height: 900px;
+}
+
+.content-section {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+}
+
+.content-section-logo img {
+  width: 683px;
+  height: 676px;
+}
+
+.input-form {
+  margin: 48px 0;
+}
+
+.input-section .title .title-special,
+.input-section .title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.input-section .title {
+  color: #1C283D;
+}
+
+.input-section .title-special {
+  color: #453FE3;
+}
+
+.input-section .subtitle {
+  color: #384961;
+}
+
+.input-section .label-password,
+.input-section .label-username {
+  color: #384961;
+  font-family: Averta;
+  font-weight: 600;
+}
+
+.input-section .label-password {
+  margin-top: 24px;
+}
+
+.input-section {
+  width: 400px;
+  margin-top: 150px;
+}
+
+.username, .password {
+  margin-top: 8px;
+  padding: 16px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #D9DFEA;
+  background: #F9FBFC;
+}
+
+.input-form .password::placeholder,
+.input-form .username::placeholder {
+  color: #AEB7CA;
+}
+
+.input-section .submit-btn {
+  width: 100%;
+  padding: 16px 28px;
+  border-radius: 12px;
+  background: #453FE3;
+  color: #FFF;
+}
+
+
+/*.content-section-wrapper {*/
+/*  background-color: blue;*/
+/*}*/
